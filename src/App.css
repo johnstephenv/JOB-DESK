@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-13921: #52ab98;
+  --color-3b4149: #52ab98;
+  --color-fedb69: #fedb69;
+  
+  
+  
+}
+body {
+  font-family: "Rubik",  sans-serif;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+
+}
+.form-control:focus{
+  box-shadow: none;
+  border-color: inherit;
+} 
+.gap-10 {
+  gap: 15px;
+}
+.gap-15{
+  gap: 15px;
+}
+.gap-30 {
+  gap: 30px
+}
+
+.button{
+  background-color:#52ab98;
+  color:antiquewhite;
+  font-size: 14px;
+  padding: 15px 33px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover{
+  background-color: rgb(69, 204, 24);
+  color: whitesmoke;
+}
+
+
+/*header*/
+.header-top-strip {
+  border-bottom: 1px solid var(--color-3b4149);
+  background-color: var(--color-13921);
+  
+}
+
+.header-bottom{
+  background-color: #52ab98;
+  
+
+}
+.header-upper {
+  background-color: #52ab98;
+  
+}
+.header-upper  .input-group-text{
+  background-color: #fedb69;
+}
+.header-upper.header-upper-links img {
+width: 10px;
+height: 10px;
+}
+.header-bottom .menu-links a {
+  color:aliceblue;
+  letter-spacing: 0.3;;
+  font-weight: 300;
+}
+
+/*FOOTER*/
+
+footer { 
+  background-color: #52ab98 ;
+}
+footer:nth-child(3){
+  border-top: 1px solid var(--color-3b4149);
+}
+footer .input-group-text{
+  background-color: #fedb69;
+  padding: 8px 17px;
+}
+
+/*home*/
+
+
+/* Home Page */
+
+
+
+
+.main-banner-content {
+  top: 10%;
+  left: 5%;
+}
+.main-banner-content h4{
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  color:blue;
+  margin: 0 0 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+
+}
+.main-banner-content h5{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color:rgb(209, 233, 73);
+  
+  text-transform: uppercase;
+
+}
+.main-banner-content p{
+  font-size: 10px;
+  
+  line-height: 28px;
+  color:rgb(16, 16, 16);
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+
+}
+/*Home page ends*/
+
+/* login page*/
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-tab {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.login-tab.active {
+  background-color: #ccc;
+}
+
+/* end login page*/
+
+/* test for employee*/
+
+
+
+.text {
+
+  text-align: center;
+  font-weight: 300;
+  }
+
+  
